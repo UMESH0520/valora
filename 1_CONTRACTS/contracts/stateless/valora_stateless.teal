@@ -1,0 +1,11 @@
+
+#pragma version 8
+// Stateless contract for VALORA escrow/validation
+txn TypeEnum
+int 1
+==
+bnz main_l1
+err
+main_l1:
+int 1
+return
