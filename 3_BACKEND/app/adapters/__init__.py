@@ -1,8 +1,8 @@
 from aiohttp import ClientSession, TCPConnector, ClientTimeout, CookieJar
 import contextlib
-from . import amazon, flipkart, myntra
+from . import amazon, flipkart, myntra, snapdeal, ajio, tatacliq
 
-ADAPTER_LIST = [amazon, flipkart, myntra]
+ADAPTER_LIST = [amazon, flipkart, myntra, snapdeal, ajio, tatacliq]
 
 @contextlib.asynccontextmanager
 async def get_client_session():

@@ -44,7 +44,7 @@ export default function Navbar() {
             to="/"
             className="font-display text-xl font-semibold tracking-tighter"
           >
-            ATTIRE
+            VALORA
           </Link>
         </div>
         

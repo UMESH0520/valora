@@ -102,7 +102,7 @@ const testimonials = [
     id: "1",
     name: "Sarah Johnson",
     role: "Fashion Designer",
-    quote: "The quality of ATTIRE's clothing is exceptional. The attention to detail and craftsmanship is evident in every piece.",
+    quote: "The quality of VALORA's clothing is exceptional. The attention to detail and craftsmanship is evident in every piece.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop",
   },
@@ -118,7 +118,7 @@ const testimonials = [
     id: "3",
     name: "Emma Thompson",
     role: "Stylist",
-    quote: "ATTIRE pieces are my go-to recommendation for clients looking for versatile, high-quality garments that last.",
+    quote: "VALORA pieces are my go-to recommendation for clients looking for versatile, high-quality garments that last.",
     rating: 4,
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop",
   },
@@ -334,7 +334,7 @@ export default function Index() {
               Customer Reviews
             </h2>
             <p className="mt-4 text-lg text-gray-500 max-w-2xl mx-auto">
-              Hear what our customers have to say about their experience with ATTIRE.
+              Hear what our customers have to say about their experience with VALORA.
             </p>
           </div>
           

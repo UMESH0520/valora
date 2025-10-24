@@ -58,7 +58,7 @@ export default function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             <Link to="/" className="font-display text-2xl font-semibold tracking-tighter">
-              ATTIRE
+              VALORA
             </Link>
             <p className="text-gray-500 text-sm max-w-xs">
               Creating timeless pieces that blend elegance with functionality for the modern individual.
@@ -134,7 +134,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 border-t border-gray-200 pt-8 pb-4">
           <p className="text-xs text-gray-500">
-            &copy; {new Date().getFullYear()} ATTIRE, Inc. All rights reserved.
+            &copy; {new Date().getFullYear()} VALORA, Inc. All rights reserved.
           </p>
         </div>
       </div>

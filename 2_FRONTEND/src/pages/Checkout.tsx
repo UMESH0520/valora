@@ -115,8 +115,8 @@ export default function Checkout() {
         key: "rzp_test_YourTestKey", // Replace with your actual test key
         amount: totalAmount,
         currency: "INR",
-        name: "ATTIRE",
-        description: "Purchase from ATTIRE Fashion Store",
+        name: "VALORA",
+        description: "Purchase from VALORA Fashion Store",
         prefill: {
           name: `${firstName} ${lastName}`,
           email: email,

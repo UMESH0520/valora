@@ -1,0 +1,31 @@
+# Core - Compatible versions for Windows
+fastapi
+uvicorn[standard]
+pydantic
+email-validator
+python-dotenv
+
+# Web scraping
+aiohttp
+beautifulsoup4
+lxml
+httpx
+
+# Database
+sqlalchemy
+aiosqlite
+
+# Blockchain
+py-algorand-sdk
+
+# Auth
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# Optional
+redis
+
+# Testing
+pytest
+pytest-asyncio
