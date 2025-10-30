@@ -1,0 +1,4 @@
+
+py-algorand-sdk==2.11.1
+pyteal==0.24.1
+python-dotenv==1.0.1

@@ -1,0 +1,17 @@
+
+#pragma version 8
+// Stateful contract for VALORA product prices
+txn TypeEnum
+int 1
+==
+bnz main_l1
+err
+main_l1:
+global CreatorAddress
+txn Sender
+==
+bnz main_l2
+err
+main_l2:
+int 1
+return
